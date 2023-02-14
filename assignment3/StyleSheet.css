@@ -1,0 +1,34 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.Bluehead{
+color:blue
+}
+
+.spanstyle{
+    color: rebeccapurple;
+}
+
+#ClassList{
+    background-color: coral;
+}
+
+.Background{
+    background-color: cadetblue;
+
+}
+
+.HeadBackground{
+    background-color: orange;
+}
