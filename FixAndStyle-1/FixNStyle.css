@@ -1,0 +1,54 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#TopPage {
+    background-color: lightskyblue;
+}
+
+#Footer{
+    background-color: yellow;
+}
+
+.spanstyle2{
+      color: orange;
+}
+
+
+.firstHeader{
+    color: white;
+}
+.background1{
+    background-color: aqua;
+}
+
+.secondHeader{
+    color: blue;
+}
+
+.thirdHeader{
+    background-color: yellow;
+}
+
+.paragraphThree{
+    color: red;
+}
+
+.fourthHeader{
+    color: yellow;
+    background-color: green;
+}
+
+.fourthParagraph{
+    background-color: lightgreen;
+}
+
+.FinalHeader{
+    color:orange;
+}
