@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+    background-image: url("Ace_Diamond copy.png");
+}
+
+
+.PageFont{
+    font-family: sans-serif;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.justifyText{
+    text-align: justify;
+}
+
+.imgbox {
+    border: 20px solid black;
+    background-color: yellow;
+    padding: 10px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.Orangehead{
+color: orange;
+font-style: italic;
+font-weight: normal;
+}
+
+.spanstyle{
+    color: rebeccapurple;
+}
+
+#ClassList{
+    background-color: coral;
+}
+
+.Background{
+    background-color: cadetblue;
+
+}
+
+.HeadBackground{
+    background-color: orange;
+}
