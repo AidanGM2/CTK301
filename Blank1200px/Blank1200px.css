@@ -1,0 +1,104 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #4568B7;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+nav li{ 
+  
+  width: 200px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: white;
+  color: white;
+  display: inline-block;
+  border-radius: 2em;
+
+}
+
+nav li a {
+  color: grey;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+nav li a:hover{
+  background-color: lightskyblue;
+  color: black;
+  border-radius: 2em;
+}
+
+
+nav{
+  grid-column: span 12;
+  text-align: center;
+  background-color: #4568B7;
+}
+
+.container{
+position: relative;
+text-align: center;
+color: white;
+}
+
+.centered{
+position: absolute;
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+main img{
+  grid-column: span 12;
+  opacity: 0.4;
+  float: center;
+  width: 1200px;
+  align-self: center;
+}
+
+main{
+  grid-column: span 12;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-bottom: 200px;
+}
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  grid-column: span 12;
+  background-color: white;
+  color: black;
+  border-radius: 2em;
+}
