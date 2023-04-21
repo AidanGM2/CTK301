@@ -9,6 +9,12 @@
 	<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+      />
+
 </head>
 <body>
 	<div id="wrapper">
@@ -18,14 +24,14 @@
 
 	<nav>
 		<ul>
-			<li><a href="https://creativetech.dev/CTK301/setup.html" target="_blank">Home</a></li>
+			<li><a href="HomePage.html" target="_blank">Home</a></li>
     <li><a href="https://creativetech.dev/CTK301/BasicHTML.html" target="_blank">Videos</a></li>
-    <li><a href="https://creativetech.dev/CTK301/BasicHTMLContinued.html" target="_blank">Art</a></li>
+    <li><a href="ArtPage.html" target="_blank">Art</a></li>
     <li><a href="https://creativetech.dev/CTK301/BasicCSS.html" target="_blank">About</a></li>
 		</ul>
 	</nav>
 
-	
+
 
 
 <main>
@@ -33,8 +39,9 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aBUBCq9023M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </main>
 
-<aside>
 
+<!--
+ <img src="1606273_alphadarklink_killer-squid-robot.gif" alt="A picture of a frog"/>
     <div class="row">
         <div class="column">
     <img src="Worlds BEST Frog 1.jpg" alt="A picture of a frog"/>
@@ -53,8 +60,33 @@
     <img src="Worlds BEST Frog 6.jpg" alt="A picture of a frog"/>
         </div>
     </div>
+-->
+    
+<div id="fancydiv">
+    <a href="1606273_alphadarklink_killer-squid-robot.gif" data-fancybox="gallery" data-caption="Robo Squid Thing">
+        <img src="1606273_alphadarklink_killer-squid-robot.gif">
+      </a>
+    <a href="Worlds BEST Frog 1.jpg" data-fancybox="gallery" data-caption="A picture of a frog">
+      <img src="Worlds BEST Frog 1.jpg">
+    </a>
+    <a href="Worlds BEST Frog 2.jpg" data-fancybox="gallery" data-caption="A picture of a frog">
+        <img src="Worlds BEST Frog 2.jpg">
+      </a>
+    <a href="Worlds BEST Frog 3.jpg" data-fancybox="gallery" data-caption="A picture of a frog">
+        <img src="Worlds BEST Frog 3.jpg">
+      </a> 
+    <a href="Worlds BEST Frog 4.jpg" data-fancybox="gallery" data-caption="A picture of a frog">
+        <img src="Worlds BEST Frog 4.jpg">
+      </a> 
+    <a href="Worlds BEST Frog 5.jpg" data-fancybox="gallery" data-caption="A picture of a frog">
+        <img src="Worlds BEST Frog 5.jpg">
+      </a>
+    <a href="Worlds BEST Frog 6.jpg" data-fancybox="gallery" data-caption="A picture of a frog">
+        <img src="Worlds BEST Frog 6.jpg">
+      </a>
+    </div>
 
-</aside>
+
 
 <footer>
 	<a href="https://instagram.com" target="_blank" class="bi bi-instagram"></a> 
@@ -62,5 +94,10 @@
 
 </footer>
 </div>
+<script>
+     Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+    });
+</script>
 </body>
 </html>
