@@ -88,7 +88,6 @@ transform: translate(-50%,-50%);
 
 main img{
   grid-column: span 12;
-  opacity: 0.4;
   float: center;
   width: 1200px;
   align-self: center;
