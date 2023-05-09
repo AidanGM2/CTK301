@@ -1,5 +1,6 @@
 body {
   background-color: #999999;
+  background-image: url("sasd.png");
 }
 
 #wrapper {
@@ -26,7 +27,6 @@ nav ul{
   margin: 0;
   padding: 0;
   padding-top: 24px;
-  
 }
 
 nav li{ 
@@ -38,7 +38,6 @@ nav li{
   color: white;
   display: inline-block;
   border-radius: 2em;
-
 }
 
 nav li a {
@@ -64,7 +63,10 @@ nav{
   grid-column: span 12;
   text-align: center;
   background-color: #4568B7;
+  border-radius: 2em;
 }
+
+
 
 
 
@@ -72,6 +74,7 @@ nav{
 position: relative;
 text-align: center;
 color: white;
+display: block;
 }
 
 .centered{
@@ -113,6 +116,8 @@ main img{
 
 #fancydiv img{
   height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 main{
@@ -121,6 +126,33 @@ main{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+}
+
+
+aside iframe{
+  padding-left: 12px;
+  margin-right: 50px;
+  width: 560px;
+}
+
+aside{
+  text-align: right;
+  grid-column: span 4;
+  display: flex;
+  padding: left 20px;
+  margin-top: 20px;
+}
+
+aside p{
+/*margin-left: 12px;*/
+color: white;
+margin-right: 20px;
+text-align: center;
+}
+
+h3{
+  margin-left: 20px;
+  text-decoration: underline;
 }
 
 footer a:hover{
@@ -139,4 +171,6 @@ footer{
   border-radius: 2em;
   padding-left: 24px;
   padding-right: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
